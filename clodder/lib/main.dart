@@ -1,3 +1,4 @@
+import 'package:clodder/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,12 +12,8 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       themeMode: ThemeMode.system,
-      theme: ThemeData(
-        textTheme: TextTheme(
-          bodyLarge: TextStyle(fontSize: 14, color: Colors.green),
-        ),
-      ),
-      darkTheme: ThemeData(),
+      theme: JAppTheme.lightTheme,
+      darkTheme: JAppTheme.darkTheme,
     );
   }
 }
