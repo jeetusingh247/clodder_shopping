@@ -1,6 +1,4 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:get/route_manager.dart';
 import 'package:intl/intl.dart';
 
@@ -24,6 +22,8 @@ class JHelperFunctions {
       return Colors.black;
     } else if (value == 'White') {
       return Colors.white;
+    } else {
+      return null;
     }
   }
 

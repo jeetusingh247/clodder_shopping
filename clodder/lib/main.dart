@@ -1,6 +1,4 @@
 import 'package:clodder/app.dart';
-import 'package:clodder/utils/constants/colors.dart';
-import 'package:clodder/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 // --> Entry Point Of My Flutter App <-- //

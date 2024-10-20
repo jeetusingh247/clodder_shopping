@@ -16,6 +16,8 @@ dependencies:
   intl: ^0.18.1
   logger: ^2.0.1
   url_launcher: ^6.1.12
+  flutter_native_splash: ^2.4.1
+
 
   # Icons
   iconsax: ^0.0.8
@@ -69,3 +71,17 @@ flutter:
         - asset: assets\fonts\Poppins-Thin.ttf
           weight: 300
 
+#-----Native Splash Screen-----#
+flutter_native_splash:
+  color: "#ffffff"
+  color_dark: "#272727"
+  image: assets/logos/J_splash_logo_light.png
+  image_dark: assets/logos/J_splash_logo_dark.png
+
+  android_12:
+    color: "#ffffff"
+    color_dark: "#272727"
+    image: assets/logos/J_splash_logo_light.png
+    image_dark: assets/logos/J_splash_logo_dark.png
+
+  web: false
